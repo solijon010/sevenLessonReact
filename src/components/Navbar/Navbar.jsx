@@ -11,7 +11,7 @@ function Navbar() {
     <header className="navbar bg-base-100 shadow-md">
     <div className="container flex items-center">
     <Link to={"/"} className="btn btn-ghost text-xl mr-auto">
-        Yandex go
+        Products
     </Link>
     <button className="relative">
       {!!cartProducts.length && <span className="absolute top-0 right-0 translate-x-1/2 -translate-y-1/2 bg-primary rounded-2xl w-6">
