@@ -1,0 +1,25 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+@theme inline {
+  --default-font-family: "Roboto Variable",  "Arial", "sans-serif";
+}
+
+@layer base {
+  #root {
+    @apply min-h-screen flex flex-col;
+  }
+  button {
+    @apply cursor-pointer
+  }
+}
+
+@layer utilities {
+  .container {
+    @apply w-full max-w-[1200px] mx-auto px-4;
+  }
+}
+
+@layer components {
+
+}
