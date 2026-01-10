@@ -1,11 +1,9 @@
 function Footer() {
   return (
-    <footer className="footer sm:footer-horizontal footer-center bg-base-300 text-base-content p-4">
-  <aside>
-    <p>Copyright © {new Date().getFullYear()} - Barcha huquqlar Yandex tomonidan himoyalangan</p>
-  </aside>
+    <footer className="footer footer-center p-4 bg-base-200 text-base-content">
+      <p>© 2026 My Shop</p>
     </footer>
-  )
+  );
 }
 
-export default Footer
+export default Footer;
